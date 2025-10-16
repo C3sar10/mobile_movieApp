@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+# 🎬 CinaMax
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A beautiful mobile app built with **React Native (Expo)** that lets users browse and discover movies using the **TMDB API**.  
+CinaMax tracks user search activity in **Firebase Firestore**, helping analyze popular search trends and user behavior.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
+
+- 🔍 **Movie Search** — Search movies in real-time using the TMDB API  
+- 🧠 **Search Analytics** — Stores and updates user search data in Firebase  
+- 🖼️ **Dynamic Movie Lists** — Displays latest, trending, and popular movies  
+- 🌙 **Responsive UI** — Clean and smooth interface styled with NativeWind (Tailwind for React Native)  
+- ⚡ **Optimized Performance** — Lazy loading and list virtualization for fast rendering
+
+---
+
+## 🧩 Tech Stack
+
+| Category | Tools Used |
+|-----------|-------------|
+| Framework | [React Native](https://reactnative.dev/), [Expo](https://expo.dev/) |
+| Styling | [NativeWind](https://www.nativewind.dev/) |
+| Backend / Database | [Firebase Firestore](https://firebase.google.com/docs/firestore) |
+| API | [TMDB (The Movie Database)](https://developer.themoviedb.org/) |
+| Icons | [Expo Vector Icons](https://docs.expo.dev/guides/icons/) |
+| Version Control | [Git](https://git-scm.com/), [GitHub](https://github.com) |
+
+---
+
+## ⚙️ Setup Instructions
+
+To run this project locally:
+
+1. **Clone the repository**
 
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/yourusername/CinaMax.git
+   cd CinaMax
